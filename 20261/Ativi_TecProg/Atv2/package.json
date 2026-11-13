@@ -1,0 +1,23 @@
+{
+  "name": "atv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --experimental-strip-types src/biblioteca.ts",
+    "dev2": "node --experimental-strip-types src/mobilidade.ts",
+    "dev3": "node --experimental-strip-types src/folha.ts",
+    "dev4": "node --experimental-strip-types src/ecomerce.ts",
+    "dev5": "node --experimental-strip-types src/academico.ts",
+    "dev6": "node --experimental-strip-types src/startup.ts",
+    "dev7": "node --experimental-strip-types src/hospital.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
+}

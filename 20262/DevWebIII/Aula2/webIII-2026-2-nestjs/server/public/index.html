@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD de Usuários</title>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <h1>CRUD de Usuários</h1>
+        <p>Aplicação simples usando NestJS e PostgreSQL.</p>
+
+        <div id="message" class="message"></div>
+
+        <form id="user-form">
+          <div>
+            <label for="name">Nome</label>
+            <input id="name" name="name" type="text" maxlength="100" required />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" maxlength="100" />
+          </div>
+
+          <button id="submit-button" class="primary" type="submit">Salvar</button>
+          <button id="cancel-button" class="secondary" type="button">Cancelar</button>
+        </form>
+
+        <h2>Usuários cadastrados</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nome</th>
+              <th>Email</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody id="users-table-body"></tbody>
+        </table>
+      </section>
+    </main>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

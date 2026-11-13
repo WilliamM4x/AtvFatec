@@ -1,0 +1,21 @@
+{
+  "name": "atividades-tec.prog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "um": "npx ts-node ./src/exercicio1",
+    "dois": "npx ts-node ./src/exercicio2",
+    "tres":"npx ts-node ./src/exercicio3",
+    "quatro":"npx ts-node ./src/exercicio4",
+    "cinco":"npx ts-node ./src/exercicio5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

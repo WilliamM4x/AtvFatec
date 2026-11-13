@@ -1,0 +1,8 @@
+# Dependências e arquivos gerados
+node_modules/
+dist/
+
+# Variáveis de ambiente locais
+.env
+.env.*
+!.env.example

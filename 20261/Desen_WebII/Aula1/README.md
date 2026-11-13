@@ -1,0 +1,1 @@
+Gera números na saída em um componente estilizado chamado ball.
